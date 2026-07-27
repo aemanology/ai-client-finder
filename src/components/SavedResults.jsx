@@ -18,7 +18,7 @@ function SavedResults({ savedLeads, onRemove }) {
 
       <div className="result-list">
         {savedLeads.map((client, index) => (
-          <div className="result-card" key={client.email + index}>
+          <div className="result-card" key={client.businessName + index}>
             <div className="card-top">
               <span className="eyebrow">Lead {String(index + 1).padStart(2, "0")}</span>
               <button className="remove-btn" onClick={() => onRemove(client)}>Remove</button>
@@ -31,9 +31,14 @@ function SavedResults({ savedLeads, onRemove }) {
             </div>
 
             <div className="field-row">
-              <span className="k">Email</span>
-              <span>{client.email}</span>
-            </div>
+  <span className="k">Phone</span>
+  <span>{client.phone || "Not listed"}</span>
+</div>
+
+<div className="field-row">
+  <span className="k">Website</span>
+  <span>{client.website || "No website"}</span>
+</div>
 
             <div className="reason">
               <span className="k">Why this lead</span>
