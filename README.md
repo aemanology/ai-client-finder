@@ -1,10 +1,10 @@
-<img width="465" height="442" alt="savelead-button" src="https://github.com/user-attachments/assets/c609606c-b3f2-48e9-a917-9abe599cdd0f" />
-
-<img width="491" height="438" alt="savedleads" src="https://github.com/user-attachments/assets/1ac4629e-0cf6-46b0-b0e3-71d3d48e3d2a" />
+<img width="470" height="441" alt="home" src="https://github.com/user-attachments/assets/b3e6e45e-5209-4995-8ad8-7198483ec73f" />
 
 <img width="487" height="440" alt="results" src="https://github.com/user-attachments/assets/971242e4-2a24-49b0-9793-f4aa1f6b740f" />
 
-<img width="470" height="441" alt="home" src="https://github.com/user-attachments/assets/b3e6e45e-5209-4995-8ad8-7198483ec73f" />
+<img width="491" height="438" alt="savedleads" src="https://github.com/user-attachments/assets/1ac4629e-0cf6-46b0-b0e3-71d3d48e3d2a" />
+
+
 # AI Client Finder
 
 > An AI-powered lead generation web application that helps freelancers discover potential clients in any city within seconds.
