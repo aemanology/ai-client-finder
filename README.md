@@ -96,3 +96,35 @@ This ensures the recommendations remain relevant, structured, and easy to presen
 - Visual Studio Code
 - Git
 - GitHub
+
+## 🚀 How to Run
+
+> **For Users:** Simply open the live application using the deployed URL provided above. No installation is required.
+
+> **For Developers:** To run the project locally for development or testing:
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/aemanology/ai-client-finder.git
+```
+
+2. Open the project in Visual Studio Code.
+
+3. Install the required dependencies.
+
+```bash
+npm install
+```
+
+4. Start the development server.
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```
+http://localhost:5173
+```
