@@ -14,18 +14,18 @@ function SearchForm({ onSearch, isLoading }) {
     <div className="console">
       <form onSubmit={handleSubmit}>
         <div className="field">
-          <label htmlFor="businessType">What you do</label>
+          <label htmlFor="businessType">Business Category</label>
           <input
             id="businessType"
             type="text"
-            placeholder="e.g. Web Developer"
+            placeholder="e.g. Restaurants, Hospitals, Dentists"
             value={businessType}
             onChange={(e) => setBusinessType(e.target.value)}
           />
         </div>
 
         <div className="field">
-          <label htmlFor="city">Where</label>
+          <label htmlFor="city">City</label>
           <input
             id="city"
             type="text"
