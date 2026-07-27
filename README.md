@@ -1,16 +1,91 @@
-# React + Vite
+# AI Client Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> An AI-powered lead generation web application that helps freelancers discover potential clients in any city within seconds.
 
-Currently, two official plugins are available:
+## Problem Statement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Finding clients is one of the biggest challenges for freelancers. Most freelancers spend hours manually searching Google Maps, company websites, and business directories before finding businesses that may actually need their services.
 
-## React Compiler
+AI Client Finder automates this process by combining real Google Maps business data with Artificial Intelligence to generate meaningful lead recommendations. Instead of spending hours searching, users simply enter their profession and target city, and the application instantly generates a list of potential clients along with AI-generated reasons explaining why each business could be a suitable lead.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Target Users
 
-## Expanding the ESLint configuration
+- Freelance Web Developers
+- Graphic Designers
+- Digital Marketers
+- SEO Specialists
+- UI/UX Designers
+- Software Developers
+- Any freelancer looking for potential clients
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌐 Live Demo
+
+🔗 **AI Client Finder:**  
+https://ai-client-finder-tau.vercel.app/
+> Search for a business category (e.g., Restaurants, Hospitals, Dentists) in your target city to discover potential clients with AI-generated recommendations.
+
+---
+
+## ✨ Features
+
+- 🔍 Search real businesses in any city using Google Maps data (SerpAPI).
+- 🤖 Generate AI-powered recommendations explaining why each business could be a potential client.
+- 📍 Search by business category and city.
+- 💾 Save potential leads locally for future reference.
+- 📂 View and manage saved leads.
+- 📱 Responsive user interface built with React.
+- ⚡ Fast serverless backend deployed on Vercel.
+- 🔒 Secure API key management using Vercel Environment Variables.
+
+---
+
+## 🤖 AI Feature
+
+AI Client Finder combines real business data with Artificial Intelligence to generate meaningful client recommendations.
+
+### How it Works
+
+1. The user enters a business category and city.
+2. The application searches Google Maps using the SerpAPI.
+3. Real business information (name, phone number and website) is collected.
+4. The business data is sent to an AI model through OpenRouter.
+5. The AI analyses each business and generates a short reason explaining why it could be a potential client.
+
+### AI System Prompt
+
+The AI is instructed to:
+
+- Analyse only the businesses returned from Google Maps.
+- Generate one short recommendation for each business.
+- Base recommendations only on the provided information.
+- Never invent facts that are not present.
+- Return clean JSON that can be displayed directly in the application.
+
+This ensures the recommendations remain relevant, structured, and easy to present to the user.
+
+---
+
+## 🛠️ Tools & Technologies
+
+### Frontend
+- React.js
+- Vite
+- Axios
+- CSS3
+
+### Backend
+- Vercel Serverless Functions
+- JavaScript (Node.js)
+
+### APIs & Services
+- SerpAPI (Google Maps Search)
+- OpenRouter API
+- Google Gemma 4 26B (AI Model)
+- Vercel (Hosting & Deployment)
+
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
